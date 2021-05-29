@@ -2,7 +2,7 @@ package craftsman;
 
 import java.util.Scanner;
 
-public class Triangle1 {
+public class TriangleTraditional {
 
     public static void main(String args[]) {
         Scanner keyboard = new Scanner(System.in);

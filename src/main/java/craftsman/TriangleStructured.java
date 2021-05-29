@@ -1,12 +1,12 @@
 package craftsman;
 
-public class Triangle2 {
+public class TriangleStructured {
 
     private int a;
     private int b;
     private int c;
 
-    public Triangle2(int a, int b, int c){
+    public TriangleStructured(int a, int b, int c){
         this.a = a;
         this.b = b;
         this.c = c;
@@ -20,11 +20,11 @@ public class Triangle2 {
         String type = "";
         if (isATriangle()) {
             if ((a == b) && (b == c)) {
-                type = "Triangle Equilateral";
+                type = "Equilateral";
             } else if ((a != b) && (a != c) && (b != c)) {
-                type = "Triangle Scalene";
+                type = "Scalene";
             } else {
-                type = "Triangle Isosceles";
+                type = "Isosceles";
             }
         }
         else {
