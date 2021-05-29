@@ -1,18 +1,18 @@
 package steps;
 
-import craftsman.TriangleStructured;
+import craftsman.TriangleStructuredImpl;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class Triangle2 {
+public class TriangleStructuredProblem {
 
-    private TriangleStructured triangle;
+    private TriangleStructuredImpl triangle;
 
     @Given("^the triangle sides (\\d+) (\\d+) (\\d+)$")
     public void the_triangle_sides(int a, int b, int c) {
-        triangle = new TriangleStructured(a, b, c);
+        triangle = new TriangleStructuredImpl(a, b, c);
     }
 
     @Then("^I expect triangle type is \"([^\"]*)\"$")

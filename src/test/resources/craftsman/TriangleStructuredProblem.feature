@@ -50,6 +50,6 @@ Feature: Triangle2 - Structured Implementation
       |  1    |  200  |   2    | "Not a Triangle" |
       |  1    |  200  |  100   | "Not a Triangle" |
       |  1    |  200  |  199   | "Not a Triangle" |
-      |  1    |  200  |  220   | "Isosceles" |
+      |  1    |  200  |  200   | "Isosceles"      |
 
 
